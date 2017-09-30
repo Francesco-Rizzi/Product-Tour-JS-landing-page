@@ -75,18 +75,14 @@ $(function(){
 		} ]
 	};
 	
+	let tour = window.ProductTourJS;
+	tour.init(tourOptions);
+	
 	if ( !window.location.hash ) {
 		setTimeout(() =>{
 			
-			let tour = window.ProductTourJS;
-			
-			if ( tourOptions && tour ) {
-				
-				tour.init(tourOptions) && tour.start();
-				
-				$(window).one('on-product-tour-js-exit', () => $('.heading-tour-start').addClass('show'));
-				
-			}
+			tour.start();
+			$(window).one('on-product-tour-js-exit', () => $('.heading-tour-start').addClass('show'));
 			
 		}, 500);
 	} else {
