@@ -1,0 +1,14 @@
+{
+  "name": "product-tour-js-landing-page",
+  "version": "1.0.0",
+  "description": "The landing / demo page of the Product Tour JS library.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "product-tour-js": "git://github.com/Francesco-Rizzi/Product-Tour-JS.git"
+  }
+}

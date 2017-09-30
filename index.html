@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="EN">
+	<head>
+		
+		<meta charset="utf-8">
+		
+		<title>Product Tour JS | Francesco Rizzi</title>
+		<meta name="description" content="A JavaScript library for easily manage user onboarding, UI discovering, product presentation, show your new awesome feature and more.">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Oswald:400,700" rel="stylesheet">
+		<link rel="stylesheet" href="assets/main.css">
+		<link rel="stylesheet" href="node_modules/product-tour-js/lib.css">
+		
+		<!--FAVICON-->
+		<link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+		<link rel="manifest" href="assets/favicon/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+		
+		<!--OG-->
+		<meta property="og:title" content="Product Tour JS | Francesco Rizzi" />
+		<meta property="og:description" content="A JavaScript library for easily manage user onboarding, UI discovering, product presentation, show your new awesome feature and more." />
+		<meta property="og:image" content="http://francescorizzi.info/projects/product-tour-js/assets/images/og.png" />
+		<meta property="og:url" content="http://francescorizzi.info/projects/product-tour-js/" />
+		<meta property="og:type" content="article" />
+		<meta property="og:site_name" content="francescorizzi.info" />
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:image:alt" content="An image showing the Product Tour JS logo">
+		<meta name="twitter:site" content="@0xFFrancesco">
+	
+	</head>
+	<body>
+		
+		
+		<div class="wrapper">
+			
+			<div class="heading">
+				
+				<a href="/" class="back-link">&LeftArrow; back</a>
+				<a href="https://github.com/Francesco-Rizzi/product-tour-js" class="github-link" target="_blank">github</a>
+				
+				<div class="heading-icon">
+					<img src="assets/images/logo.svg" title="Product Tour JS logo" alt="Product Tour JS logo"></div>
+				<div class="heading-text">
+					<h1>Product <br>Tour <br>JS</h1>
+					<h2>A JavaScript library for easily manage user onboarding, UI discovering, product presentation, show your new awesome feature and more.</h2>
+					<a href="#" class="js-product-tour-js-tour-start heading-tour-start">demo</a>
+				</div>
+			
+			</div>
+		
+		</div>
+		
+		
+		<div class="demo-header">
+			
+			<div class="wrapper">
+				<div class="demo-header-logo">ACME, Inc.</div>
+				<ul class="demo-header-menu">
+					<li class="demo-header-menu-item"><a href="#features" title="features">features</a></li>
+					<li class="demo-header-menu-item"><a href="#docs" title="docs">docs</a></li>
+					<li class="demo-header-menu-item"><a href="#about" title="about">about</a></li>
+				</ul>
+			</div>
+		
+		</div>
+		
+		<div class="demo wrapper">
+			
+			<div class="demo-features" id="features">
+				
+				<h3>Features</h3>
+				
+				<div class="feature-box">
+					<div class="feature-box-image"></div>
+					<div class="feature-box-text">
+						<h4 class="feature-box-text-title">🔝 Top, bottom, right or left? Your choice</h4>
+						<h5 class="feature-box-text-desc">Top, bottom, right or left, just set that in your config object and the CSS will take care of layouting everything.</h5>
+					</div>
+				</div>
+				
+				<div class="feature-box reverse">
+					<div class="feature-box-image"></div>
+					<div class="feature-box-text">
+						<h4 class="feature-box-text-title">🎯 Fine grain positioning and dynamic re-centering</h4>
+						<h5 class="feature-box-text-desc">Positioning your tip in the right place is critical. This library allows you the maximum flexibility. Combining a positioning system based on selectors, percentage units and fixed pixel units (up to a total of 5 positioning inputs), it allows a dynamic repositioning and a pixel-perfect fine-tuning.</h5>
+					</div>
+				</div>
+				
+				<div class="feature-box">
+					<div class="feature-box-image"></div>
+					<div class="feature-box-text">
+						<h4 class="feature-box-text-title">📱 Mobile ready</h4>
+						<h5 class="feature-box-text-desc">The default breakpoint (<a href="https://v4-alpha.getbootstrap.com/layout/overview/#responsive-breakpoints" target="_blank">from bootstrap</a>) where it changes from desktop to mobile version is 768px. Because in mobile screens is difficult to position floating tips due to the very low space available, it renders itself at the centre of the screen (like a modal) and shows the image that you provided for each step. It allows swipe left and right gestures to move to the next and previous tip as well.
+						</h5>
+					</div>
+				</div>
+				
+				<div class="feature-box reverse">
+					<div class="feature-box-image"></div>
+					<div class="feature-box-text">
+						<h4 class="feature-box-text-title">🤡 Customizable</h4>
+						<h5 class="feature-box-text-desc">All the most important things can be easily customized, you can override the default options in JS with the config object and in CSS with the CSS variables. Every CSS variable is namespaced with
+							<code>--product-tour-js-{name}</code> to avoid possible conflicts with other variables. The only thing you have to change manually if you'd like to change is the mobile breakpoint, unfortunately we can't use (yet?) a CSS variable for defining a media query (<a target="_blank" href="https://stackoverflow.com/questions/40722882/css-native-variables-not-working-in-media-queries">more on that</a>).
+						</h5>
+					</div>
+				</div>
+				
+				<div class="feature-box">
+					<div class="feature-box-image"></div>
+					<div class="feature-box-text">
+						<h4 class="feature-box-text-title">⚙️ On-select custom functions</h4>
+						<h5 class="feature-box-text-desc">The user has just switched to the next tip, but you'd like to change tab, open an accordion or do other useful stuff. No problem. You can specify an
+							<code>onSelected</code> function in you config object which will be executed as soon as the tip is changed and selected.
+						</h5>
+					</div>
+				</div>
+				
+				<div class="feature-box reverse">
+					<div class="feature-box-image"></div>
+					<div class="feature-box-text">
+						<h4 class="feature-box-text-title">📡 Events</h4>
+						<h5 class="feature-box-text-desc">Although this library doesn't rely on events to work, it dispatch them anyway for generic purposes. You may want to track something or do some action in response of an event. The default three events dispatched are:
+							<code>on-product-tour-js-next</code>, <code>on-product-tour-js-prev</code> and
+							<code>on-product-tour-js-exit</code>.</h5>
+					</div>
+				</div>
+			
+			</div>
+			
+			<div class="demo-features" id="docs">
+				
+				<h3>Docs</h3>
+				
+				<h4>How to import / use it?</h4>
+				<h5>
+					<ul>
+						<li>download it (<a href="https://github.com/Francesco-Rizzi/product-tour-js" target="_blank">github</a>)
+						</li>
+						<li>add the <code>lib.js</code> and
+							<code>lib.css</code> files to your page (<a href="#requirements">requirements</a>)
+						</li>
+						<li>create your custom configuration (<a href="#docs-options">more on that later</a>)</li>
+						<li>when you want to start it call <code>ProductTourJS.init(your-options-obj);</code> and
+							<code>ProductTourJS.start();</code></li>
+					</ul>
+				</h5>
+				
+				<h4>How the positioning system works?</h4>
+				<h5>
+					The positioning system is designed to allow both flexibility and fine-grain tuning. It uses five inputs to determine the position of the tip. The object which will be the reference for all the others coordinates is set by the selector option of your tip object. His top-left corner will be the (0;0) point of the system. Then come in the percentage units (x, y). They will set the position of the tip related to your selected object in percentage (ex. x=0 -> left edge, x=50 -> centre, x=100 -> right edge, x=200 -> two times the selected object length to the right). For fine tuning this relative positioning come in your help the fixed pixel measurements (offx and offy, ex. offx=100 -> shift the current position to 100px to the right, offy=-50 -> shift the current position to 50px from the bottom).
+					<div class="image-title">Here an hopefully explicative image:</div>
+					<div>
+						<img src="assets/images/tip-positioning.jpg" alt="an image explaining the positioning system" title="an image explaining the positioning system">
+					</div>
+				</h5>
+				</h5>
+				
+				<h4>What about re-sizing the window?</h4>
+				<h5>
+					This is a feature designed from the beginning and it works out of the box. When the user resize the window, the library automatically recalculates all the positions of the tips, and places them at the right pixel. The resize event is throttled to 1 repositioning allowed every 300ms of resizing, so you don't have to worry about potential performance issues.
+				</h5>
+				
+				
+				<h4>What CSS variables do you use?</h4>
+				<h5>
+					<pre>
+
+:root {
+  /* CONFIG VARIABLES */                /* DEFAULTS */
+  --product-tour-js-brand-color       : #DCB24C;
+  --product-tour-js-brand-color-light : rgba(220, 178, 76, 0.43);
+  --product-tour-js-brand-color-dark  : #AD8C3E;
+  --product-tour-js-bg-color          : #FFFFFF;
+  --product-tour-js-bg-color-dark     : #F7F7F7;
+  --product-tour-js-font              : sans-serif;
+}
+					</pre>
+				</h5>
+				
+				<h4 id="docs-options">What is my-custom-options-obj like?</h4>
+				<h5>
+                <pre>
+let tourOptions = {
+    
+    options : {
+    
+        darkLayerPersistence : true,
+        next : 'Next',
+        prev : 'Previous',
+        finish : 'Okay!',
+        mobileThreshold: 768
+    
+    },
+    
+    tips : [
+
+    {
+        title : '<span class="tour-title-icon">🤘🏼</span> My title',
+        description : 'My description',
+        image : 'my/image/path.png',
+        selector : '.my-selector',
+        x : 50,
+        y : 50,
+        offx : 10,
+        offy : -20,
+        position : 'top',
+        onSelected : false
+    },
+    
+    {...TIP2},
+    {...TIPN},
+    ]
+};</pre>
+				</h5>
+				
+				<h4>tourOptions.options (Object):</h4>
+				<h5>
+					<ul>
+						<li>
+							<code>darkLayerPersistence:</code> [default: false] whether keep the dark layer for all the interactions or show it only when changing the tip and then fade it out
+						</li>
+						<li><code>next:</code> [default: 'Next'] the text for the next link</li>
+						<li><code>prev:</code> [default: 'Previous'] the text for the previous link</li>
+						<li><code>finish:</code> [default: 'Okay!'] the text for final button</li>
+						<li>
+							<code>mobileThreshold:</code> [default: '768'] the threshold where it switches to the mobile version
+						</li>
+					</ul>
+				</h5>
+				
+				<h4>tourOptions.tips (Array[1..N of tips Objects]):</h4>
+				<h5>
+					<ul>
+						<li><code>image:</code> path of the image to show in the mobile version</li>
+						<li>
+							<code>selector:</code> a jQuery compatible selector to select the main element to attach the tip to
+						</li>
+						<li>
+							<code>x:</code> a number (percentage) which indicates where to place horizontally the tip related to the element (ex. 0=left edge, 100=right edge)
+						</li>
+						<li>
+							<code>y:</code> a number (percentage) which indicates where to place vertically the tip related to the element (ex. 0=top edge, 100=bottom edge)
+						</li>
+						<li>
+							<span class="notice">notice:</span> to centre the tip inside your element just use x=50 and y=50, those value are calculated in relation to the centre of the tip's animated circle
+						</li>
+						<li><code>offx:</code> the number of px to offset the position horizontally (fined tuning)</li>
+						<li><code>offy:</code> the number of px to offset the position vertically (fined tuning)</li>
+						<li>
+							<code>position:</code> the layout of the tip, given the centre point (with x, y, offx and offy) it tells how to layout the tip (options available: 'top', 'bottom', 'left', 'right')
+						</li>
+						<li>
+							<code>onSelected:</code> a function that will be executed as soon as the user reach the specified tip
+						</li>
+						<li>
+							<span class="notice">notice:</span> that function will be called with the tour object itself as first argument, so you can make changes in your UI, ex. opening a tab or an accordion, and then you can call the 'tour.setPositions()' to refresh the positions of your tips
+						</li>
+					</ul>
+				
+				</h5>
+				
+				
+				<h4 id="requirements">Requirements:</h4>
+				<h5>
+					<ul>
+						<li>jQuery</li>
+					</ul>
+				</h5>
+				
+				<h4>Issues, improvements, etc.:</h4>
+				<h5>
+					If you want to open an issue, a PR, propose a change, etc., open it on
+					<a href="https://github.com/Francesco-Rizzi/product-tour-js" target="_blank">github</a>.
+				</h5>
+			
+			</div>
+			
+			<div class="about" id="about">
+				
+				<h3>About the author:</h3>
+				<h4>I'm Francesco, if you want to discover some more stuff about me, check out these links:
+					<a href="/" target="_blank" title="Personal website">my website</a>,
+					<a target="_blank" href="https://github.com/Francesco-Rizzi" title="GitHub profile">GitHub</a>,
+					<a target="_blank" href="https://www.linkedin.com/in/francesco-rizzi-199524a5/" title="LinkedIn profile">LinkedIn</a>,
+					<a target="_blank" href="https://twitter.com/0xFFrancesco" title="Twitter profile">Twitter @0xFFrancesco</a>,
+					<a target="_blank" href="https://www.instagram.com/finallyfrancesco/" title="Instagram profile">Instagram @finallyfrancesco</a>.
+				</h4>
+				<h5>
+				
+				</h5>
+			
+			</div>
+		
+		</div>
+		
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+		<script src="node_modules/product-tour-js/lib.js"></script>
+		<script src="assets/config.js"></script>
+	
+	
+	</body>
+</html>
