@@ -75,19 +75,23 @@ $(function(){
 		} ]
 	};
 	
-	setTimeout(() =>{
-		
-		let tour = window.ProductTourJS;
-		
-		if ( tourOptions && tour ) {
+	if ( !window.location.hash ) {
+		setTimeout(() =>{
 			
-			tour.init(tourOptions) && tour.start();
+			let tour = window.ProductTourJS;
 			
-			$(window).one('on-product-tour-js-exit',() => $('.heading-tour-start').addClass('show'));
+			if ( tourOptions && tour ) {
+				
+				tour.init(tourOptions) && tour.start();
+				
+				$(window).one('on-product-tour-js-exit', () => $('.heading-tour-start').addClass('show'));
+				
+			}
 			
-		}
-		
-	}, 500);
+		}, 500);
+	} else {
+		$('.heading-tour-start').addClass('show');
+	}
 	
 	window.onbeforeunload = function(){
 		window.scrollTo(0, 0);
