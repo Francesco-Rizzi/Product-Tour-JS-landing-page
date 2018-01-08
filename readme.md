@@ -1,7 +1,7 @@
 # 🤘 Product Tour JS - landing page
 
 ### Description:
-The landing / demo page of the Product Tour JS library. <a target='_blank' href='http://francescorizzi.info/projects/product-tour-js'>see it live</a>
+The landing / demo page of the Product Tour JS library. <a target='_blank' href='https://frarizzi.science/projects/product-tour-js/'>see it live</a>
 ### Tech stuff 👾:
 - JavaScript
 - jQuery
